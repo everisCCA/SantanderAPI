@@ -1,0 +1,2 @@
+<% report = "-f pretty -f json -o report.json -f html -o report.html" %>
+default: <%= report %> -r features/api -r features/step_definitions -r features/support
